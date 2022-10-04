@@ -31,7 +31,7 @@ public class Main {
                 System.out.println("Сидячих мест нет");
                     int passengers = 60;
                     if (passengers >= 60) {
-                        System.out.println("Сидячих мест есть");
+                        System.out.println("Сидячие места есть");
                     }
 
 
