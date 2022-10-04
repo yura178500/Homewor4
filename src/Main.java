@@ -100,6 +100,13 @@ public class Main {
                                     boolean cenNotGo = agg <= 14;
                                     if (cenNotGocenNotGo) {
                                         System.out.println("может кататься без сопровождения взрослого");}
+                                    // Задача 6.3
+                                    int one;
+                                    int two;
+                                    int free;
+                                    if (one < free && two < free && free > one && free > two ){
+                                        System.out.println("Большее число");
+                                    } else {System.out.println("Меньше числа");}
 
 
 
