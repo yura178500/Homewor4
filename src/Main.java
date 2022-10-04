@@ -104,7 +104,7 @@ public class Main {
                                     int one;
                                     int two;
                                     int free;
-                                    if (one < free && two < free && free > one && free > two ){
+                                    if (one < free || two < free || free > one || free > two ){
                                         System.out.println("Большее число");
                                     } else {System.out.println("Меньше числа");}
 
